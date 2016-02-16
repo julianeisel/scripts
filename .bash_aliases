@@ -28,6 +28,6 @@ alias gdel="find . -name '*.orig' -delete && find . -name '*.rej' -delete && fin
 # misc
 alias pa="patch -p1 <"
 
-# ideasman42 aliases
-alias bbug='b `ls -1 $HOME/Downloads/*.blend -tr | tail -n 1`'
-alias bpatch='git apply `ls -1 $HOME/blender/diffs/*.diff -tr | tail -n 1`'
+# fancy ideasman42 aliases
+alias bbug='b `ls -1 $HOME/Downloads/*.blend -tr | tail -n 1`' # open last added .blend in ~/Downloads
+alias bpatch='git apply `ls -1 $HOME/blender/diffs/*.diff -tr | tail -n 1`' # apply last added .diff in ~/blender/diffs
