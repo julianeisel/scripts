@@ -1,10 +1,16 @@
 # blender
-alias b="$HOME/blender/software/blender-git/build/bin/blender"
-alias blender="b"
+# alias blender="$HOME/blender/software/blender-git/build/bin/blender"
+alias blender="./bin/blender" # cd to build dir first, example usage: bud && blender
+alias b="blender" # cd to build dir first, example usage: bud && b
 alias cdb="cd $HOME/blender/software/blender-git/"
 alias bl="cd $HOME/blender/software/blender-git/blender"
+alias blm="cd $HOME/blender/software/blender-git/blender_master"
+alias blw="cd $HOME/blender/software/blender-git/widgets"
 alias bu="cd $HOME/blender/software/blender-git/build"
-alias ao="cd $HOME/blender/software/blender-git/blender/release/scripts/addons"
+alias bud="cd $HOME/blender/software/blender-git/build_debug"
+alias bum="cd $HOME/blender/software/blender-git/build_master"
+alias buw="cd $HOME/blender/software/blender-git/build_widgets"
+alias ao="cd release/scripts/addons" # cd to source dir first, example usage: bl && ao
 
 # compiling
 alias m="make -j`nproc`"
