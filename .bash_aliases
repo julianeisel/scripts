@@ -24,9 +24,10 @@ alias grhard="git reset --hard origin/master"
 alias gs="git status"
 alias gdi="git diff"
 alias gdel="find . -name '*.orig' -delete && find . -name '*.rej' -delete && find . -name '*.BACKUP.*.c' -delete && find . -name '*.BASE.*.c' -delete && find . -name '*.LOCAL.*.c' -delete && find . -name '*.REMOTE.*.c' -delete"
+alias ga="git apply"
 
 # misc
-alias pa="patch -p1 <"
+# alias pa="patch -p1 <"
 
 # fancy ideasman42 aliases
 alias bbug='b `ls -1 $HOME/Downloads/*.blend -tr | tail -n 1`' # open last added .blend in ~/Downloads
