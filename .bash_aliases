@@ -20,6 +20,7 @@ alias mi="make install -j`nproc`"
 alias gpull="git pull --rebase && git submodule foreach git pull --rebase origin master"
 alias gc="git commit -a"
 alias gco="git checkout"
+__git_complete gco _git_checkout # git auto-complete, requires git-completion.bash being available
 alias grhard="git reset --hard origin/master"
 alias gs="git status"
 alias gdi="git diff"
