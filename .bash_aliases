@@ -23,6 +23,7 @@ alias gco="git checkout"
 __git_complete gco _git_checkout # git auto-complete, requires git-completion.bash being available
 alias grhard="git reset --hard origin/master"
 alias gs="git status"
+alias gshow="git show HEAD"
 alias gdi="git diff"
 alias gdel="find . -name '*.orig' -delete && find . -name '*.rej' -delete && find . -name '*.BACKUP.*.c' -delete && find . -name '*.BASE.*.c' -delete && find . -name '*.LOCAL.*.c' -delete && find . -name '*.REMOTE.*.c' -delete"
 alias ga="git apply"
